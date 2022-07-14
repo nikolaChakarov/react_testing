@@ -32,6 +32,7 @@ const Form = () => {
                         type="text"
                         id="username"
                         name="username"
+                        placeholder="username"
                         value={formInfo.username}
                         onChange={onInputChange}
                     />
@@ -44,6 +45,7 @@ const Form = () => {
                         type="number"
                         id="homepass"
                         name="homepass"
+                        placeholder="homepass"
                         min={0}
                         value={formInfo.homepass}
                         onChange={onInputChange}
